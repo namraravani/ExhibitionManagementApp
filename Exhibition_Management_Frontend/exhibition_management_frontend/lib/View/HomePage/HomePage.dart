@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:exhibition_management_frontend/Tools/ColorPalette.dart'; // Import the ColorPalette
 import 'package:exhibition_management_frontend/Models/ExhibitionCardDTO.dart';
 import 'package:exhibition_management_frontend/View/HomePage/ExhibitionCard.dart'; // Adjust the path as needed
 import 'package:exhibition_management_frontend/View/HomePage/Header/Header.dart'; // Import your Header widget
@@ -37,67 +38,67 @@ class HomePage extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(100),
-        child: SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Header(searchController: searchController),
-              ),
-            ],
-          ),
-        ),
-      ),
-      body: Stack(
-        children: [
-          ListView.builder(
-            itemCount: exhibitionList.length,
-            itemBuilder: (context, index) {
-              return GestureDetector(
-                onTap: () {
-                  // Navigate to the details page and pass the model
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => ExhibitionDetailsPage(
-                        bannerImageUrl:
-                            exhibitionList[index].imageUrl, // Use model data
-                        venuePhotos: [
-                          'assets/Banner_Images/Banner_Image-2.png',
-                          'assets/Banner_Images/Banner_Image-2.png',
-                          'assets/Banner_Images/Banner_Image-2.png',
-                          'assets/Banner_Images/Banner_Image-2.png'
-                        ],
-                        venueName: exhibitionList[index].venue,
-                        address: "A-1003,Statyajeet Sopan,Rajkot",
-                        timeDuration:
-                            "${exhibitionList[index].startDate} - ${exhibitionList[index].endDate}",
-                        numberOfTables: 50,
-                        description: "Good Exhibition",
-                      ),
-                    ),
-                  );
-                },
-                child: ExhibitionDisplayCard(
-                  model: exhibitionList[index],
-                ),
-              );
-            },
-          ),
-          Positioned(
-            bottom: 16,
-            right: 16,
-            child: FloatingActionButton(
-              onPressed: () =>
-                  FilterBtn.showFilterDialog(context), // Call the dialog
-              backgroundColor: Colors.grey, // Customize as needed
-              child: const Icon(Icons.filter_list),
+      body: Container(
+        color: ColorPalette.lightBackgroundColor, // Set background color
+        child: Column(
+          children: [
+            Container(
+              child: Header(searchController: searchController),
             ),
-          ),
-        ],
+            Expanded(
+              child: Stack(
+                children: [
+                  ListView.builder(
+                    itemCount: exhibitionList.length,
+                    itemBuilder: (context, index) {
+                      return Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: GestureDetector(
+                          onTap: () {
+                            // Navigate to the details page and pass the model
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => ExhibitionDetailsPage(
+                                  bannerImageUrl: exhibitionList[index]
+                                      .imageUrl, // Use model data
+                                  venuePhotos: [
+                                    'assets/Banner_Images/Banner_Image-2.png',
+                                    'assets/Banner_Images/Banner_Image-2.png',
+                                    'assets/Banner_Images/Banner_Image-2.png',
+                                    'assets/Banner_Images/Banner_Image-2.png'
+                                  ],
+                                  venueName: exhibitionList[index].venue,
+                                  address: "A-1003,Statyajeet Sopan,Rajkot",
+                                  timeDuration:
+                                      "${exhibitionList[index].startDate} - ${exhibitionList[index].endDate}",
+                                  numberOfTables: 50,
+                                  description: "Good Exhibition",
+                                ),
+                              ),
+                            );
+                          },
+                          child: ExhibitionDisplayCard(
+                            model: exhibitionList[index],
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                  Positioned(
+                    bottom: 16,
+                    right: 16,
+                    child: FloatingActionButton(
+                      onPressed: () => FilterBtn.showFilterDialog(context),
+                      backgroundColor: Colors.grey,
+                      child: const Icon(Icons.filter_list),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
