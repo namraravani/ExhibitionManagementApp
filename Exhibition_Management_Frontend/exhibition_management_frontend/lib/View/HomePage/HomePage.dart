@@ -42,13 +42,13 @@ class HomePage extends StatelessWidget {
         color: ColorPalette.lightBackgroundColor, // Set background color
         child: Column(
           children: [
-            Container(
-              child: Header(searchController: searchController),
-            ),
+            Header(
+                searchController: searchController), // Removed extra Container
             Expanded(
               child: Stack(
                 children: [
                   ListView.builder(
+                    padding: EdgeInsets.zero, // Removed extra padding
                     itemCount: exhibitionList.length,
                     itemBuilder: (context, index) {
                       return Padding(
