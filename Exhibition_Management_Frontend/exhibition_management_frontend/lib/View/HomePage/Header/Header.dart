@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:exhibition_management_frontend/Tools/ColorPalette.dart';
 
 class Header extends StatelessWidget {
   final TextEditingController searchController;
@@ -7,44 +8,60 @@ class Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(1.0),
+    return Container(
+      padding: EdgeInsets.only(
+        top: MediaQuery.of(context).padding.top, // Add padding for status bar
+        left: 8,
+        right: 8,
+        bottom: 8,
+      ),
+      decoration: const BoxDecoration(
+        color: ColorPalette.lightBackgroundColor, // Apply background color
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          const Text(
             "Welcome to Star Exhibition",
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
+              color: ColorPalette.lightTextColor, // Text color
             ),
           ),
           Row(
-            mainAxisAlignment:
-                MainAxisAlignment.spaceBetween, // Space between elements
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Expanded(
-                child: TextField(
-                  controller: searchController, // Bind the controller
-                  decoration: InputDecoration(
-                    hintText: "Search by Venue and Month...",
-                    filled: true, // Enables background fill color
-                    fillColor: Colors.white, // Sets background to white
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8.0),
-                      borderSide: BorderSide.none, // Removes border lines
-                    ),
-                    prefixIcon:
-                        const Icon(Icons.search), // Search icon as prefix
-                    contentPadding: const EdgeInsets.symmetric(
-                        vertical: 10.0), // Adjust padding
-                  ),
+                  child: TextField(
+                controller: searchController,
+                style: const TextStyle(
+                  // Customize input text color
+                  color: Colors.black, // Set the text color
+                  fontSize: 16, // Optional: Set the font size
                 ),
-              ),
+                decoration: InputDecoration(
+                  hintText: "Search by Venue and Month...",
+                  hintStyle: const TextStyle(
+                    // Customize hint text style
+                    color: Colors.grey, // Hint text color
+                    fontSize: 16,
+                  ),
+                  filled: true,
+                  fillColor: Colors.white, // Background color
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                    borderSide: BorderSide.none, // No border
+                  ),
+                  prefixIcon: const Icon(Icons.search,
+                      color: Colors.black), // Icon color
+                  contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
+                ),
+              )),
               IconButton(
-                icon: const Icon(Icons.menu),
+                icon:
+                    const Icon(Icons.menu, color: ColorPalette.lightIconColor),
                 onPressed: () {
-                  // Handle settings button tap here
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
@@ -54,7 +71,7 @@ class Header extends StatelessWidget {
                         actions: <Widget>[
                           TextButton(
                             onPressed: () {
-                              Navigator.of(context).pop(); // Close the dialog
+                              Navigator.of(context).pop();
                             },
                             child: const Text("Close"),
                           ),

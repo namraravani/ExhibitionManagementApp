@@ -24,7 +24,7 @@ class ExhibitionDisplayCard extends StatelessWidget {
                 borderRadius: BorderRadius.vertical(top: Radius.circular(12.0)),
                 child: Image.asset(
                   model.imageUrl,
-                  height: 450,
+                  height: 300,
                   width: double.infinity,
                   fit: BoxFit.cover,
                 ),
@@ -34,7 +34,7 @@ class ExhibitionDisplayCard extends StatelessWidget {
                   right: 8,
                   child: Container(
                     padding:
-                        const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                        const EdgeInsets.symmetric(horizontal: 4, vertical: 3),
                     decoration: BoxDecoration(
                       color: model.eventStatus == "Upcoming"
                           ? Colors.blue // Background color for "Upcoming"
