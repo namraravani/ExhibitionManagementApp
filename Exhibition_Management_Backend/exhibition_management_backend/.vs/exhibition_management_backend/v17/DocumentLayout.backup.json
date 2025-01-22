@@ -1,12 +1,173 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\dto\\exhibitionaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\dto\\exhibitionaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\repositories\\exhibition\\exhibitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\repositories\\exhibition\\exhibitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\services\\exhibition\\iexhibitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\services\\exhibition\\iexhibitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\dto\\exhibitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\dto\\exhibitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\controllers\\exhibitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\controllers\\exhibitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\services\\exhibition\\exhibitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\services\\exhibition\\exhibitionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\repositories\\exhibition\\iexhibitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\repositories\\exhibition\\iexhibitionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\models\\exhibitionmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\models\\exhibitionmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|d:\\final year capstone project\\exhibition_management_backend\\exhibition_management_backend\\exhibition_management_backend\\models\\exhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD0610E-66C8-4CC7-A0ED-0B015B39BF5F}|exhibition_management_backend\\exhibition_management_backend.csproj|solutionrelative:exhibition_management_backend\\models\\exhibition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExhibitionService.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Services\\Exhibition\\IExhibitionService.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Services\\Exhibition\\IExhibitionService.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Services\\Exhibition\\IExhibitionService.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Services\\Exhibition\\IExhibitionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:16:35.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExhibitionRepository.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Repositories\\Exhibition\\ExhibitionRepository.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Repositories\\Exhibition\\ExhibitionRepository.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Repositories\\Exhibition\\ExhibitionRepository.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Repositories\\Exhibition\\ExhibitionRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:09:12.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExhibitionService.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Services\\Exhibition\\ExhibitionService.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Services\\Exhibition\\ExhibitionService.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Services\\Exhibition\\ExhibitionService.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Services\\Exhibition\\ExhibitionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:17:15.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExhibitionController.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Controllers\\ExhibitionController.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Controllers\\ExhibitionController.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Controllers\\ExhibitionController.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Controllers\\ExhibitionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:15:30.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExhibitionAddressDTO.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\DTO\\ExhibitionAddressDTO.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\DTO\\ExhibitionAddressDTO.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\DTO\\ExhibitionAddressDTO.cs",
+              "RelativeToolTip": "exhibition_management_backend\\DTO\\ExhibitionAddressDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:37:30.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExhibitionDTO.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\DTO\\ExhibitionDTO.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\DTO\\ExhibitionDTO.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\DTO\\ExhibitionDTO.cs",
+              "RelativeToolTip": "exhibition_management_backend\\DTO\\ExhibitionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:34:07.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IExhibitionRepository.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Repositories\\Exhibition\\IExhibitionRepository.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Repositories\\Exhibition\\IExhibitionRepository.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Repositories\\Exhibition\\IExhibitionRepository.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Repositories\\Exhibition\\IExhibitionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:18:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExhibitionManagementDbContext.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Models\\ExhibitionManagementDbContext.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Models\\ExhibitionManagementDbContext.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Models\\ExhibitionManagementDbContext.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Models\\ExhibitionManagementDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:38:26.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exhibition.cs",
+              "DocumentMoniker": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Models\\Exhibition.cs",
+              "RelativeDocumentMoniker": "exhibition_management_backend\\Models\\Exhibition.cs",
+              "ToolTip": "D:\\Final Year Capstone Project\\Exhibition_Management_Backend\\exhibition_management_backend\\exhibition_management_backend\\Models\\Exhibition.cs",
+              "RelativeToolTip": "exhibition_management_backend\\Models\\Exhibition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:33:57.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

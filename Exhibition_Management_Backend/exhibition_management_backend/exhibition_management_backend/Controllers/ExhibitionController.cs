@@ -1,4 +1,5 @@
 ﻿using exhibition_management_backend.DTO;
+using exhibition_management_backend.Models;
 using exhibition_management_backend.Services.Exhibition;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,10 +19,17 @@ namespace exhibition_management_backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<ExhibitionDTO>> Get()
+        public async Task<IActionResult> GetAllExhibitions()
         {
-            var exhibitions = _service.GetAllExhibitions();
+            var exhibitions = await _service.GetAllExhibitions();
             return Ok(exhibitions);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetExhibitionById(int id)
+        {
+            var exhibition = await _service.GetExhibitionById(id);
+            return Ok(exhibition);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exhibition_management_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24b5b82619c0d2c1a13976cb45064af6ecae29f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b15ee40dde0ee1d596ab8b5a72dc181a72f13abb")]
 [assembly: System.Reflection.AssemblyProductAttribute("exhibition_management_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exhibition_management_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
