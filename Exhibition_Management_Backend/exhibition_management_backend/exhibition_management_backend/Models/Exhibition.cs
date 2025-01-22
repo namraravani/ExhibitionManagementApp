@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace exhibition_management_backend.Models;
 
-public partial class Exhibition
+public class Exhibition
 {
     public int Id { get; set; }
 

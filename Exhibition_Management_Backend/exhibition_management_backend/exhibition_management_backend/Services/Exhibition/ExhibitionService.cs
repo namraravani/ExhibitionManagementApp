@@ -12,9 +12,19 @@ namespace exhibition_management_backend.Services.Exhibition
             _repository = repository;
         }
 
-        public IEnumerable<ExhibitionDTO> GetAllExhibitions()
+        public async Task<IEnumerable<ExhibitionAddressDTO>> GetExhibitionById(int id)
         {
-            return (IEnumerable<ExhibitionDTO>)_repository.GetAllExhibitions();
+            var exhibition = await _repository.GetExhibitionById(id);
+            return exhibition;
         }
+
+        public async Task<IEnumerable<ExhibitionDTO>> GetAllExhibitions()
+        {
+            // Convert to a list to ensure proper serialization
+            var exhibitions = await _repository.GetAllExhibitions();
+            return exhibitions.ToList();
+        }
+
+        
     }
 }

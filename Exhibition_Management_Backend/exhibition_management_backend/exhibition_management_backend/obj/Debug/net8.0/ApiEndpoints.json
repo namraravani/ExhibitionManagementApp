@@ -1,23 +1,29 @@
 [
   {
     "ContainingType": "exhibition_management_backend.Controllers.ExhibitionController",
-    "Method": "Get",
+    "Method": "GetAllExhibitions",
     "RelativePath": "api/Exhibition",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "exhibition_management_backend.Controllers.ExhibitionController",
+    "Method": "GetExhibitionById",
+    "RelativePath": "api/Exhibition/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[exhibition_management_backend.DTO.ExhibitionDTO, exhibition_management_backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "exhibition_management_backend.Controllers.WeatherForecastController",

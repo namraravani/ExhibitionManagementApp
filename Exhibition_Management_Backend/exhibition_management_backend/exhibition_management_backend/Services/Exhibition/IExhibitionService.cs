@@ -4,6 +4,7 @@ namespace exhibition_management_backend.Services.Exhibition
 {
     public interface IExhibitionService
     {
-        IEnumerable<ExhibitionDTO> GetAllExhibitions();
+        Task<IEnumerable<ExhibitionDTO>> GetAllExhibitions();
+        Task<IEnumerable<ExhibitionAddressDTO>> GetExhibitionById(int id);
     }
 }
